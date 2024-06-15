@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+html {
+    scroll-behavior:smooth;
+  }
+body{
+    background-color: black;
+    
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    gap: .250rem;
+}
+.logo h1 h2{
+    gap: 1rem;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+
+.logo img{
+    border-radius: 10px;
+}
+.container_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.titulo_container1{
+    text-align: center;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+
+
+.tenis_principal_pag1{
+    display: flex;
+    flex-direction:row;
+    max-width: 1920px;
+    padding: 1rem;
+    gap: .500rem;
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(#029653,#2d5a3e,#039A55);
+    border-radius: 14px;
+    margin: 2rem 2rem ;
+  
+}
+.tenis_principal_pag1_titulo{
+    font-size: 32px;
+    padding-bottom: 40px;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+.tenis_principal_pag1_titulo:hover{
+    color:#039A55;
+}
+.tenis_principal_pag1_conteudo{
+    display: flex;
+    flex-direction: column;
+}
+.tenis_principal_pag1_texto{
+    padding: 1rem;
+    font-size: 18px;
+    font-family: "Anta", sans-serif;
+}
+.tenis_principal_pag1_imagem{
+    border-radius: 16px;
+}
+
+
+.grade_tenis_secundaria img{
+    border-radius: 16px;
+    margin: 1rem;
+}
+
+
+.container_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.titulo_container2{
+    text-align: center;
+}
+.tenis_principal_pag2{
+    display: flex;
+    flex-direction:row;
+    padding: 1rem;
+    max-width: 1920px;
+    gap: .500rem;
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(#076E42,#000910,#000910,#3E7D51);
+    border-radius: 14px;
+    margin: 2rem 2rem ;
+    
+}
+.tenis_principal_pag2_titulo{
+    font-size: 32px;
+    padding-bottom: 40px;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+.tenis_principal_pag2_conteudo{
+    display: flex;
+    flex-direction: column;
+}
+.tenis_principal_pag2_texto{
+    padding: 1rem;
+    row-gap: 10px;
+    font-size: 18px;
+    font-family: "Anta", sans-serif;
+}
+.tenis_principal_pag2_imagem{
+    border-radius: 16px;
+}
+
+.grade_tenis_secundaria img{
+    border-radius: 16px;
+    margin: 1rem;
+}
+.container_3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.titulo_container3{
+    text-align: center;
+}
+.tenis_principal_pag3{
+    display: flex;
+    flex-direction:row;
+    padding: 1rem;
+    max-width: 1920px;
+    gap: .500rem;
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(#24523E,#629163);
+    border-radius: 14px;
+    margin: 2rem 2rem;
+  
+}
+.tenis_principal_pag3_titulo{
+    font-size: 32px;
+    padding-bottom: 40px;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+.tenis_principal_pag3_conteudo{
+    display: flex;
+    flex-direction: column;
+}
+.tenis_principal_pag3_texto{
+    padding: 1rem;
+    font-size: 18px;
+    font-family: "Anta", sans-serif;
+}
+.tenis_principal_pag3_imagem{
+    border-radius: 16px;
+}
+.grade_tenis_secundaria img{
+    border-radius: 16px;
+    margin: 1rem;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem;
+
+}
+.card img{
+    border-radius: 16px;
+    margin: 1rem;
+}
+.card_item{
+    background: linear-gradient(#4A0810,#000910,#4A0810);
+    text-align: center;
+    border-radius: 16px;
+    
+}
+
+.card_item_texto{
+    max-width: 500px;
+    padding: 2rem;
+    row-gap: 30px;
+    font-family: "Anta", sans-serif;
+    font-size: 18px;
+}
+#mais{
+    display: none;
+}
+#btnVermais_1{
+    color: #000910;
+    width: 100px;
+    height: 50px;
+    border-radius: 16px 0;
+    border-bottom: #4A0810;
+    font-family: "Anta", sans-serif;
+    margin-bottom: 1rem;
+}
+#btnVermais_1:hover{
+    background: #4A0810;
+    color: white;
+    border-color: black;
+    transition: 0.5s;
+    
+}
+#btnVermais_2{
+    color: #000910;
+    width: 100px;
+    height: 50px;
+    border-radius: 16px 0;
+    border-bottom: #4A0810;
+    font-family: "Anta", sans-serif;
+    margin-bottom: 1rem;
+}
+#btnVermais_2:hover{
+    background: #4A0810;
+    color: white;
+    border-color: black;
+    transition: 0.5s;
+    
+}
+#btnVermais_3{
+    color: #000910;
+    width: 100px;
+    height: 50px;
+    border-radius: 16px 0;
+    border-bottom: #4A0810;
+    font-family: "Anta", sans-serif;
+    margin-bottom: 1rem;
+}
+#btnVermais_3:hover{
+    background: #4A0810;
+    color: white;
+    border-color: black;
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 1765px ){
+    .card_item_texto{
+        max-width: 380px;
+    }
+
+}
+@media only screen and (max-width: 1445px ) {
+    
+    .tenis_principal_pag1{
+        display: flex;
+        flex-direction: column;
+    }
+    .tenis_principal_pag1_img{
+        width: 500px;
+        height: 520px;
+    }
+    .grade_tenis_secundaria img{
+        width: 320px;
+        height: 340px;
+    }
+    .tenis_principal_pag1_texto{
+        max-width: 800px;
+    }
+    
+    .tenis_principal_pag2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .tenis_principal_pag2_img{
+        width: 500px;
+        height: 520px;
+    }
+    .tenis_principal_pag2_texto{
+        max-width: 800px;
+    }
+    .tenis_principal_pag3{
+        display: flex;
+        flex-direction: column;
+    }
+    .tenis_principal_pag3_img{
+        width: 500px;
+        height: 520px;
+    }
+    .tenis_principal_pag3_texto{
+        max-width: 800px;
+    }
+}
+
+@media only screen and (max-width: 1368px ){
+    .card_item_texto{
+        max-width: 350px;
+    }
+}
+@media only screen and (max-width: 1320px ){
+    
+    
+    .card img{
+        width: 280px;
+        height: 240px;
+    }
+    
+    
+}
+@media only screen and (max-width: 1160px ){
+    
+    .card{
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+        align-items: center;
+    }
+    .card_item{
+        max-width: 600px;
+    }
+    .card img{
+        width: 480px;
+        height: 440px;
+    }
+    .card_item_texto{
+        text-align: center;
+        align-items: center;
+        max-width: 600px;
+    }
+}
+@media only screen and (max-width: 1090px ){
+    
+    .card img{
+        width: 410px;
+        height: 390px;
+    }
+}
+
+
+@media only screen and (max-width: 769px ){
+    
+    .tenis_principal_pag1 img{
+        width: 300px;
+        height: 340px;
+    }
+    .tenis_principal_pag2 img{
+        width: 300px;
+        height: 340px;
+    }
+    .tenis_principal_pag3 img{
+        width: 300px;
+        height: 340px;
+    }
+    .grade_tenis_secundaria img{
+        width: 280px;
+        height: 260px;
+    }
+    .card{
+        display:flex;
+        flex-direction: column;
+        gap: 2.5rem;
+            }
+    .card_item{
+        gap: 1rem;
+    }
+    .card_item_texto{
+        max-width: 700px;
+    }
+}
+@media only screen and (max-width: 450px ){
+    .tenis_principal_pag1 img{
+        width: 300px;
+        height: 340px;
+    }
+    .tenis_principal_pag2 img{
+        width: 300px;
+        height: 340px;
+    }
+    .tenis_principal_pag3 img{
+        width: 300px;
+        height: 340px;
+    }
+    .grade_tenis_secundaria img{
+        width: 280px;
+        height: 260px;
+    }
+    .card{
+        display:flex;
+        flex-direction: column;
+        gap: 2.5rem;
+            }
+    .card_item{
+        gap: 1rem;
+    }
+    .card img{
+        width: 320px;
+        height: 300px;
+    }
+    .card_item_texto{
+        max-width: 300px;
+    }
+}
+
+
+
+
+
+
+
