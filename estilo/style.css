@@ -69,9 +69,7 @@ body{
     font-style: normal;
   
 }
-.tenis_principal_pag1_titulo:hover{
-    color:#039A55;
-}
+
 .tenis_principal_pag1_conteudo{
     display: flex;
     flex-direction: column;
@@ -265,7 +263,7 @@ body{
 
 @media only screen and (max-width: 1765px ){
     .card_item_texto{
-        max-width: 380px;
+        max-width: 350px;
     }
 
 }
@@ -313,19 +311,10 @@ body{
 
 @media only screen and (max-width: 1368px ){
     .card_item_texto{
-        max-width: 350px;
+        max-width: 300px;
     }
 }
-@media only screen and (max-width: 1320px ){
-    
-    
-    .card img{
-        width: 280px;
-        height: 240px;
-    }
-    
-    
-}
+
 @media only screen and (max-width: 1160px ){
     
     .card{
